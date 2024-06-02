@@ -1,0 +1,109 @@
+aside {
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+.profile-photo {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 25rem;
+    height: 25rem;
+    padding: 1rem;
+}
+
+.aside {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.contact-information img {
+    padding: 0.25rem;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.contact-information a {
+    text-decoration: none;
+    color: white;
+    transition: color 200ms ease-in;
+}
+
+.contact-information a:hover {
+    color: aqua;
+}
+
+.header {
+    padding: 1rem;
+    background-color: rgba(79, 166, 238, 0.253);
+    width: 100%;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: start;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.item img {
+    width: 40px;
+    height: 40px;
+}
+
+.item-description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.item-description p,
+h5,
+h6 {
+    margin: 0px;
+}
+
+.item-description ul {
+    padding-left: 32px;
+    margin: 2px;
+}
+
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#certification,
+#education,
+#organization {
+    min-width: 50%;
+}
+
+#content {
+    align-items: start !important;
+}
